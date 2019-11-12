@@ -52,7 +52,9 @@ public class LoginPageTest extends TestBase{
 		System.out.println("this is my second gitbash verify");
 
 	}
-	
-	
+	@Test(priority=4)
+	public void login(){
+		System.out.println("this is my third gitbash");
+	}
 
 }
